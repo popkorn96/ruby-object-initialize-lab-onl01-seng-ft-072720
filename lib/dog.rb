@@ -11,4 +11,7 @@ class Dog
     @name
     @breed
   end
+  def breed
+    puts "Mutt"
+  end
 end
