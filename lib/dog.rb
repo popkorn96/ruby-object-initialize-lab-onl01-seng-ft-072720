@@ -5,13 +5,10 @@ class Dog
   end
   def name=(name)
     @name=name
-    @breed=breed
+    @breed= "Mutt"
   end
   def name
     @name
     @breed
-  end
-  def breed
-    puts "Mutt"
   end
 end
